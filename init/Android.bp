@@ -15,9 +15,9 @@
 //
 
 cc_library_static {
-    name: "libinit_X00P",
+    name: "libinit_PLE",
     recovery_available: true,
-    srcs: ["init_X00P.cpp"],
+    srcs: ["init_PLE.cpp"],
     include_dirs: [
         "system/core/base/include",
         "system/core/init"

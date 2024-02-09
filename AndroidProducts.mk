@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_X00P.mk
+    $(LOCAL_DIR)/lineage_PLE.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_X00P-user \
-    lineage_X00P-userdebug \
-    lineage_X00P-eng
+    lineage_PLE-user \
+    lineage_PLE-userdebug \
+    lineage_PLE-eng

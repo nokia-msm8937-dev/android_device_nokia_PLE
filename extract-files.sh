@@ -8,9 +8,7 @@
 
 function blob_fixup() {
     case "${1}" in
-        vendor/lib/libarcsoft_nighthawk.so \
-        |vendor/lib/libarcsoft_piczoom.so \
-        |vendor/lib/libarcsoft_videostab.so \
+        vendor/lib/libarcsoft_smart_denoise.so \
         |vendor/lib/libarcsoft_night_shot.so)
             "${PATCHELF}" --remove-needed "libandroid.so" "${2}"
             ;;
@@ -25,8 +23,8 @@ fi
 
 set -e
 
-export DEVICE=X00P
+export DEVICE=PLE
 export DEVICE_COMMON=msm8937-common
-export VENDOR=asus
+export VENDOR=nokia
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

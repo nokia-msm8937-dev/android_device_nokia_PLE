@@ -4,13 +4,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/asus/X00P
+DEVICE_PATH := device/nokia/PLE
 
 # Inherit from msm8937-common
-$(call inherit-product, device/asus/msm8937-common/msm8937.mk)
+$(call inherit-product, device/nokia/msm8937-common/msm8937.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/asus/X00P/X00P-vendor.mk)
+$(call inherit-product, vendor/nokia/PLE/PLE-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -19,7 +19,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
-    device/asus/X00P
+    device/nokia/PLE
 
 # Screen density
 TARGET_SCREEN_HEIGHT := 1440
@@ -36,9 +36,9 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.X00P
+    android.hardware.light@2.0-service.PLE
 
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.factory \
-    init.X00P.rc
+    init.PLE.rc

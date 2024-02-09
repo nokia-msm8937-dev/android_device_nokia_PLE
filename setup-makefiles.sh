@@ -8,8 +8,8 @@
 
 set -e
 
-export DEVICE=X00P
+export DEVICE=PLE
 export DEVICE_COMMON=msm8937-common
-export VENDOR=asus
+export VENDOR=nokia
 
 "./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
