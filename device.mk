@@ -12,6 +12,10 @@ $(call inherit-product, device/nokia/msm8937-common/msm8937.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/nokia/PLE/PLE-vendor.mk)
 
+# Keylayout
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
