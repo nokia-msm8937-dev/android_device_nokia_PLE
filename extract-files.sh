@@ -12,6 +12,11 @@ function blob_fixup() {
         |vendor/lib/libarcsoft_night_shot.so)
             "${PATCHELF}" --remove-needed "libandroid.so" "${2}"
             ;;
+        # Load sensors.rangefinder.so from /vendor partition
+        vendor/lib/libmmcamera2_stats_modules.so)
+            sed -i -e 's|system/lib64/sensors.rangefinder.so|vendor/lib64/sensors.rangefinder.so|g' "${2}"
+            sed -i -e 's|system/lib/sensors.rangefinder.so|vendor/lib/sensors.rangefinder.so|g' "${2}"
+            ;;
     esac
 }
 

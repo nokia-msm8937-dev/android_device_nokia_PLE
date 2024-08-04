@@ -111,6 +111,7 @@ vendor/lib/libjpegehw.so
 vendor/lib/libmm-qcamera.so
 vendor/lib/libmmcamera_sonyimx135_eeprom.so
 vendor/lib/libmmcamera2_mct.so
+vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/libmmjpeg.so
 vendor/lib/libmmjpeg_interface.so
 vendor/lib/libmmqjpegdma.so
