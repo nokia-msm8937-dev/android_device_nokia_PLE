@@ -37,7 +37,8 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
     $(LOCAL_PATH)/audio/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_mtp.xml \
-    $(LOCAL_PATH)/audio/mixer_paths_ple.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_ple.xml
+    $(LOCAL_PATH)/audio/mixer_paths_ple.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_ple.xml \
+    $(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml
 
 # Lights
 PRODUCT_PACKAGES += \
