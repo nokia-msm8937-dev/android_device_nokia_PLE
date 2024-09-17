@@ -124,6 +124,9 @@ vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libremosaic_daemon.so
 vendor/lib/libswvdec.so
 vendor/lib/libvideoutils.so
+vendor/lib/libmmcamera_eeprom_util.so
+vendor/lib/libmmcamera_dbg.so
+vendor/lib/libmmcamera_interface.so
 vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2vop.so
@@ -1440,6 +1443,10 @@ vendor/lib/libchromatix_s5k5e8_snapshot.so
 vendor/lib/libchromatix_s5k5e8_versions.so
 vendor/lib/libchromatix_s5k5e8_zsl_preview.so
 vendor/lib/libchromatix_s5k5e8_zsl_video.so
+vendor/lib/libfih_camera_effect.so
+vendor/lib/libmmcamera2_sensor_modules.so
+vendor/lib/libmmcamera2_is.so
+vendor/lib/libmmcamera2_stats_algorithm.so
 
 # Camera-configs
 vendor/etc/camera/camera_config.xml
@@ -1494,6 +1501,14 @@ vendor/etc/camera/s5k4h8_nd1_chromatix.xml
 vendor/etc/camera/s5k4h8_ple_ofilm_chromatix.xml
 vendor/etc/camera/s5k5e8_chromatix.xml
 vendor/etc/camera/s5k5e8_oc6_chromatix.xml
+
+# CNE
+vendor/lib/com.quicinc.cne.server@2.0.so
+vendor/lib/com.quicinc.cne.server@2.1.so
+vendor/lib/com.quicinc.cne.server@2.2.so
+vendor/lib64/com.quicinc.cne.server@2.0.so
+vendor/lib64/com.quicinc.cne.server@2.1.so
+vendor/lib64/com.quicinc.cne.server@2.2.so
 
 # Firmware
 etc/firmware/elanfp.b00
@@ -1581,3 +1596,18 @@ vendor/lib/hw/keystore.msm8937.so
 vendor/lib64/hw/keystore.msm8937.so
 vendor/lib64/libkeystore-engine-wifi-hidl.so
 vendor/lib64/libkeystore-wifi-hidl.so
+
+# Misc
+vendor/lib/libwfdmmservice.so
+vendor/lib/libwfdcommonutils_proprietary.so
+
+# RPS
+vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so
+vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so
+vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
+vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
+vendor/lib/rfsa/adsp/libdspCV_skel.so
+vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
+vendor/lib/rfsa/adsp/libapps_mem_heap.so
+vendor/lib/rfsa/adsp/libscveT2T_skel.so
+
