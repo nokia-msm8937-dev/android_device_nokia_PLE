@@ -109,6 +109,8 @@ vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
 vendor/lib/libmm-qcamera.so
+vendor/lib/libmmcamera_pdaf.so
+vendor/lib/libmmcamera_pdafcamif.so
 vendor/lib/libmmcamera_sonyimx135_eeprom.so
 vendor/lib/libmmcamera2_mct.so
 vendor/lib/libmmcamera2_stats_modules.so
@@ -174,6 +176,7 @@ vendor/bin/mm-qcamera-app
 vendor/bin/mm-qcamera-daemon
 
 # Camera-chromatix
+vendor/lib/libmmcamera2_iface_modules.so
 vendor/lib/libchromatix_csidtg_common.so
 vendor/lib/libchromatix_csidtg_cpp_preview.so
 vendor/lib/libchromatix_csidtg_postproc.so
